@@ -337,11 +337,68 @@ footer .widget_title_text {
     margin-top: 30px;
 }
 
+.widget_body .subtitle {
+    font-size: 13px;
+    color: #797979;
+    margin-bottom: 20px;
+}
+
+.widget_body .foot_contact {
+    font-size: 13px;
+    color: #797979;
+}
+
 .widget_body .informations {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: 14px;
+}
+
+.informations .email a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.informations .inf_num,
+.informations .email {
+    margin-right: 30px;
+}
+
+.latest_post .content_latest_post a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.latest_post .content_latest_post a p {
+    font-size: 12px;
+    color: #36a9e1;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.seta {
+    display: flex;
+}
+
+.content_latest_tweets {
+    flex: 1;
+    font-size: 13px;
+    color: #797979;
+    margin-left: 10px;
+}
+
+.content_latest_tweets a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content_latest_tweets p {
+    font-size: 12px;
+    color: #36a9e1;
+    margin-left: 5px;
+    line-height: 20px
 }
 
 
